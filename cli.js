@@ -13,5 +13,7 @@ async function main() {
 
   console.log(domains.length, "2FA domains");
   console.log(breaches.length, "breaches");
-  console.log(data.map(breach => breach.Name).join(", "));
+  console.log(data.length, "breached domains have 2FA");
+  console.log("");
+  console.log(data.map(breach => breach.Name).join("\n"));
 }
