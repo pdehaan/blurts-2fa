@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "2fa-domains": "github:pdehaan/2fa-domains",
-    "axios": "^0.19.2"
+    "axios": "^0.21.1"
   },
   "devDependencies": {},
   "homepage": "https://github.com/pdehaan/blurts-2fa#readme",
